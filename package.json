@@ -1,0 +1,28 @@
+{
+  "name": "GFG-SRMIST-website",
+  "version": "1.0.0",
+  "description": "GFG SRMIST website",
+  "main": "./api/index.js",
+  "scripts": {
+    "start": "node ./api/index.js",
+    "server": "nodemon ./api/index.js",
+    "client": "cd client && npm run start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GeeksForGeeks-SRMIST/GFG-SRMIST-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GeeksForGeeks-SRMIST/GFG-SRMIST-website/issues"
+  },
+  "homepage": "https://github.com/GeeksForGeeks-SRMIST/GFG-SRMIST-website#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
